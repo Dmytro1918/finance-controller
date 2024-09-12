@@ -1,0 +1,22 @@
+#root{
+  background-image: linear-gradient(
+    150deg,
+    hsl(267deg 20% 11%) 4%,
+    hsl(267deg 17% 18%) 12%,
+    hsl(267deg 15% 26%) 17%,
+    hsl(267deg 12% 33%) 24%,
+    hsl(267deg 10% 41%) 32%,
+    hsl(267deg 8% 50%) 41%,
+    hsl(267deg 8% 59%) 53%,
+    hsl(267deg 8% 68%) 66%,
+    hsl(267deg 6% 77%) 82%,
+    hsl(0deg 0% 87%) 100%
+  );
+  height: 100vh;
+  flex-direction: column;
+  display: grid;
+}
+
+body{
+  margin:0;
+}

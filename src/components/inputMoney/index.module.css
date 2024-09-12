@@ -1,0 +1,11 @@
+.sumInput{
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input{
+    padding:8px;
+    width:-webkit-fill-available;
+}

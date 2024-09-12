@@ -1,0 +1,80 @@
+.parentDiv{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color:rgba(0, 0, 0, 0.466);
+    font-family: 'Courier New', Courier, serif;
+    font-size: 26px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:30%;
+    width: 100%;
+}
+
+.rowDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    height:50%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.textArea{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    
+}
+
+.textField{
+    width:40%;
+    height:70%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: none;
+    outline: none;
+}
+
+.input{
+    border: 2px solid;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+  input:required {
+    border-color: rgb(218, 11, 11);
+  }
+
+.acceptButton{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(230, 71, 195);
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 50px;
+    align-items: center;
+}

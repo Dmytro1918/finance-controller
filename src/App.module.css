@@ -1,0 +1,14 @@
+
+.container{
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.child{
+  position: relative;
+  padding: 120px 100px 100px 100px;
+  
+}
+

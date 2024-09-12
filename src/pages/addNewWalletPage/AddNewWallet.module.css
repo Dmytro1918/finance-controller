@@ -1,0 +1,123 @@
+
+.parentDiv{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100%;
+    
+}
+
+.sidebar{
+    background-color: rgba(150, 148, 247, 0.226); 
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+    position: relative;
+    top: 0;
+    left: -130px; 
+    transition: left 0.6s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1000;   
+}
+.divButton{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.aLink{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, serif;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    color:inherit;
+    background-color:  rgba(157, 155, 235, 0.342); 
+    border-radius: 0.75em;
+    transition: ease 0.8s;
+
+}
+
+.aLink:hover {
+    transform: scale(1.2);
+    color:aliceblue;
+}
+.svgWallet{
+    width:50px;
+    cursor: pointer;     
+}
+
+
+.quote {
+    font-family: 'Courier New', Courier, serif;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.divForElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bgrndImage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url('./../../assets/franklin.jpg');
+    width:50%;    
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+
+.walletText{
+    padding-left: 20px;
+    opacity:0;
+    transition: 0.6s ease; 
+    font-family: 'Courier New', Courier, serif;
+    font-size: 26px;
+    color:white;
+}
+
+.sidebar:hover .walletText{
+    opacity: 1;
+}
+
+.sidebar:hover  {
+    left: 0;
+}
+
+.menuIcon{
+    display:flex;
+    flex-direction: row;
+}
+.icon{
+    height: 50px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.listHeader{
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, serif;
+    font-size: 22px;
+    opacity: 0;
+    transition: 0.3s ease 0.3s;
+    color:white;
+}
+.parentDiv:hover .listHeader  {
+    opacity: 1; 
+    border-bottom: 2px double black ;
+}
+.sidebar:not(:hover) .listHeader {
+    opacity: 0;
+}
